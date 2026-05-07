@@ -12,9 +12,9 @@ PHASE 1 : INDEXATION ■
 ■  Données brutes (CSV) → Nettoyage → Chunking → Embedding ■
 ■                          ↓                              ■
 ■                     Base FAISS                          ■
-■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+
                             ↓
-■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+
 ■ PHASE 2 : INTERROGATION ■
 ■ (à chaque question)     ■
 ■                                                         ■
@@ -25,7 +25,7 @@ PHASE 1 : INDEXATION ■
 ■                  LLM Groq + Contexte                    ■
 ■                          ↓                              ■
 ■                 Réponse avec sources                    ■
-■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+
 
 ## 🛠 Outils et Technologies
 - **Groq API** : Moteur d'inférence ultra-rapide (Modèle Llama 3.3 70B).
